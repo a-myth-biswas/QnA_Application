@@ -1,3 +1,5 @@
 .env
 __pycache__
 .idea
+/test_venv/
+req.txt

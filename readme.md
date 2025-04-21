@@ -20,8 +20,8 @@ bash
 Copy
 Edit
 # Clone the repo
-git clone https://github.com/your/repo.git
-cd your-repo
+git clone https://github.com/a-myth-biswas/QnA_Application.git
+cd QnA_Application
 
 # Create a virtual environment
 python -m venv venv
@@ -38,18 +38,8 @@ Frontend (Streamlit)
 bash
 Copy
 Edit
-cd ../frontend
 
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate
-
-# Install Streamlit and other dependencies
-pip install -r requirements.txt
-
-# Run the app
-go to the root directory, then run the command
-
+# Use the same virtual environment
 streamlit run Frontend/st_app.py
 
 ⚙️ CI/CD Workflow
@@ -146,7 +136,6 @@ Streamlit
 
 PyPDF2
 
-Docker
 
 GitHub Actions
 
